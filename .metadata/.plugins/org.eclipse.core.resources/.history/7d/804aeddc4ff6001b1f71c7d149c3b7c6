@@ -1,0 +1,13 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+public class Matriz {
+
+	
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		System.out.println("\n OI \n");
+		
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+public class ExercícioLaco1 {
+
+	
+	public static void main(String[] args) {
+		
+		System.out.print("\nHello, world!");
+		System.out.print("\nIt's my first Java code!");
+		
+		
+		
+		
+	}
+}

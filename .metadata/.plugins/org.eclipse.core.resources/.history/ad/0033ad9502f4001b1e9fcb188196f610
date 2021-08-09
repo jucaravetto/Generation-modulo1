@@ -1,0 +1,34 @@
+package PacoteJava;
+	import java.util.Scanner;
+
+
+public class classeexercicioum {
+
+	
+	public static void main(String[] args) {
+		
+		//System.out.print("\nHello, world!");
+		//System.out.print("\nIt's my first Java code!");
+		
+		/*Início do exercício-programa 1 proposto
+		Exercício escolhido:
+		1 - Faça um sistema que leia a idade de uma
+		pessoa expressa em anos, meses e dias e mostre-a
+		expressa apenas em dias.
+		*/
+		
+		Scanner leia = new Scanner(System.in);
+				
+		int idadedias, anos, meses, dias, anosemdias, mesesemdias;
+		System.out.print("\nOlá usuário! Vamos calcular sua idade em dias!");
+		System.out.print("\nDigite, por favor, quantos anos voce tem: ");
+		
+		//System.out.println("\nEntre com a primeira nota: ");
+		anos = leia.nextInt();
+		System.out.printIn("\nVocê tem: ", anos, "anos.");
+		
+		
+		
+	}
+	
+}

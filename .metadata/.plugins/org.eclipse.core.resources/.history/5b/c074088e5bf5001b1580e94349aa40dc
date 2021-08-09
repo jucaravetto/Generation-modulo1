@@ -1,0 +1,60 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+
+public class ExLacoWhile {
+	public static void main(String[] args) {
+		
+		/*Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de 21 anos. 
+		 Total de pessoas com mais de 50 anos. O programa termina quando idade for =-99. (WHILE)*/
+		Scanner ler = new Scanner(System.in);
+		
+		int idade, peop21, peop50;
+		idade=0;
+		peop21=0;
+		peop50=0;
+		
+		System.out.print("\n(Se quiser encerrar o programa, digite idade igual a -99!)");
+		System.out.print("\nOlá! Didite sua idade: ");
+		idade = ler.nextInt();
+		//System.out.print("\nSua idade é: "+ idade + ".");  //para teste
+		
+		if(idade<0)
+		{
+			System.out.print("\nDigite uma idade válida:");
+			idade = ler.nextInt();
+		}
+		
+		while(idade>=0)
+		{
+			if(idade<21)
+			{
+				peop21=peop21+1;
+				System.out.print("\nDigite mais uma idade: ");
+				idade = ler.nextInt();
+			}
+			else if (idade>50)
+			{
+				peop50=peop50+1;
+				System.out.print("\nDigite mais uma idade: ");
+				idade = ler.nextInt();
+			}
+			else
+			{
+				//System.out.print("\nSua idade é: "+idade);
+				System.out.print("\nDigite mais uma idade: ");
+				idade = ler.nextInt();
+			}
+
+		}
+		
+		if(idade==-99)
+		{
+			System.out.print("\nVocê encerrou o programa.");
+		}
+		
+		System.out.print("\nPrograma encerrado.");
+		System.out.print("\nO número de pessoas menores de 21 anos é: "+peop21);
+		System.out.print("\nO número de pessoas maiores de 50 anos é: "+peop50);
+	}
+
+}

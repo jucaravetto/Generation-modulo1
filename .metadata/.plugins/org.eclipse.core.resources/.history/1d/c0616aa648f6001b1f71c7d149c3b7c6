@@ -1,0 +1,38 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+
+public class Vetor {
+	
+	public static void main(String[] args) {
+		
+		/*2- Faça um programa que receba 6 números inteiros e mostre: 
+			• Os números pares digitados;  
+			• A soma dos números pares digitados; 
+			• Os números ímpares digitados; 
+			• A quantidade de números ímpares digitados.
+		 	*/
+		Scanner ler = new Scanner(System.in);
+		
+		//System.out.println("\nEntre com o segundo número: ");
+		//numero2 = ler.nextInt();	
+		
+		
+		int [] vetorum = new int[6];
+		
+		int x, pares, somapares, impares, quantimpares;
+		
+		for (x=0;x<6;x++)
+		{ 
+			System.out.println("\nDigite o número "+ (vetorum[x]+1)+ " por favor: ");
+			vetorum[x] = ler.nextInt();
+			x++;
+		}
+		
+		for (x=0;x<6;x++)
+		{
+			System.out.println(" "+ (vetorum[x])+ " ");
+		}
+		
+	}
+
+}

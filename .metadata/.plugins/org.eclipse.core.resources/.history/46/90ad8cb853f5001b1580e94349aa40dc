@@ -1,0 +1,21 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+
+public class ExLacoWhile {
+	public static void main(String[] args) {
+		
+		/*Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de 21 anos. 
+		 Total de pessoas com mais de 50 anos. O programa termina quando idade for =-99. (WHILE)*/
+		Scanner ler = new Scanner(System.in);
+		
+		int idade, peop21, peop50;
+		idade=0;
+		peop21=0;
+		peop50=0;
+		
+		System.out.print("\nOlá! Didite sua idade: ");
+		idade = ler.nextInt();
+		System.out.print("\nSua idade é: "+ idade + ".");
+	}
+
+}

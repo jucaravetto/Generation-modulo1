@@ -1,0 +1,17 @@
+package PacoteJava;
+import java.util.*; //chamando toda a biblioteca
+
+public class ExLacoFor {
+	public static void main(String[] args) {
+		
+		//Informar todos os números de 1000 a 1999 que, quando divididos por 11, obtemos resto = 5. (FOR)
+		
+		Scanner ler = new Scanner(System.in);
+		
+		//declarar variavel que armazena os divisiveis, declarar o contador, todos inteiros
+		//loop que roda de 1000 a 1999 e dentro verifica se o resto da divisão por 11 é 5:
+		// if(numero%11==5)
+		
+	
+	}
+}
